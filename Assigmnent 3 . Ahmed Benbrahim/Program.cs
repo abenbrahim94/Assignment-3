@@ -29,16 +29,11 @@ namespace Assigmnent_3.Ahmed_Benbrahim
                 Console.WriteLine("5 - Greek Salad");
                 Console.WriteLine("6 - Exit");
                 Console.Write("\n");
-
                 Console.WriteLine("Please make your selection (1 to 5) And 6 to Exit");
-
-
                 Console.WriteLine("Please Enter your Choice: ");
-
                 Menu = Console.ReadLine();
                 Console.Write("\n");
                 MenuChoices = Convert.ToInt32(Menu);
-
                 switch ((Food)(MenuChoices))
                 {
                     case Food.BURGERFRIES:
@@ -62,24 +57,14 @@ namespace Assigmnent_3.Ahmed_Benbrahim
                     default:
                         Console.WriteLine("Error! Invalid entry!!");
                         break;
-
                 }
                 Console.WriteLine("Press any key to continue....");
                 Console.ReadKey();
                 Console.Clear();
-
             }
-
-           
-
-            
-
             Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++");
             Console.WriteLine("Press any key to exit ...");
             Console.ReadKey();
-
-
-
         }
     }
 }
